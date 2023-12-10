@@ -1,0 +1,18 @@
+.answer {
+    width: 45%;
+    padding: 10px;
+    background-color: #1A1A1A;
+    color: #B3B3B3;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #4D4D4D;
+
+    &:focus {
+        border: 1px solid #29BA21;
+    }
+
+    &:hover {
+        border: 1px solid #BCB429;
+    }
+}
